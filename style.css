@@ -420,11 +420,11 @@ body{
         font-size: 110%;
         width: 230px;
         text-align: center;
-        margin-top: 16vh;   
+        margin-top: 18vh;   
         
     }
     .bottom-nav {
-        margin-top: 16vh;
+        margin-top: 14vh;
     }
     .year{
         margin: 4vh 8% 0 5%;
@@ -446,7 +446,7 @@ body{
         font-size: 110%;
         width: 230px;
         text-align: center;
-        margin-top: 26vh;   
+        margin-top: 26  vh;   
         
     }
     .bottom-nav {
