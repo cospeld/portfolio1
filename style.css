@@ -321,7 +321,7 @@ body{
         display: flex;
         margin-top: 1%;
         justify-content: center;
-        width: 90%;
+        width: 100%;
     
     }
     .first-screen {
@@ -360,7 +360,7 @@ body{
         font-size: 110%;
         width: 230px;
         text-align: center;
-        margin-top: 11vh;
+        margin-top: 22vh;
         
     }
     .Hello {
@@ -383,7 +383,8 @@ body{
     }
 
     .bottom-nav {
-        margin-top: 17vh;
+        margin-top: 16vh;
+        padding-top: 6%;
     }
     .social {
         margin: 4vh 24%;
@@ -399,6 +400,33 @@ body{
     }
     
     .year{
+        margin: 4vh 15% 0 8%;
+        width: 140px;
+        font-size: 70%;
+        text-align: left;
+    }
+    
+    .location{
+        margin: 4vh 0 0 124%;
+        width: 300px;
+        font-size: 70%;
+        text-align: left;
+        padding-left: 14%;
+    }
+    .top-nav-block {
+        display: block;
+        margin: 0 0% 0 9rem;
+    }
+    .img{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .bottom-nav {
+        margin-top: 23vh;
+    }
+    .year{
         margin: 4vh 8% 0 5%;
         width: 140px;
         font-size: 70%;
@@ -410,12 +438,5 @@ body{
         width: 300px;
         font-size: 70%;
         text-align: left;
-    }
-    .top-nav-block {
-        display: block;
-        margin: 0 0% 0 15%;
-    }
-    .img{
-        max-width: 100%;
     }
 }
