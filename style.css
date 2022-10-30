@@ -8,6 +8,8 @@ body{
     font-family: 'Poppins', sans-serif;
     color: white;
     overflow-x: hidden;
+    position: relative;
+      height: 100%;
 }
 .top-nav, .bottom-nav{
     display: flex;
@@ -334,6 +336,7 @@ body{
     }
     .vishwash{
         margin: 4vh 0% 0 0%;
+        padding-left: 4%;
         font-size: 90% !important;
     }
     
@@ -361,7 +364,7 @@ body{
         font-size: 110%;
         width: 230px;
         text-align: center;
-        margin-top: 26vh;
+        margin-top: 26vh;   
         
     }
     .Hello {
@@ -384,24 +387,47 @@ body{
     }
 
     .bottom-nav {
-        margin-top: 24vh;
+        margin-top: 22vh;
         padding-top: 2vh;
     }
-    .social {
-        margin: 4vh 24%;
-        width: 140px;
-        font-size: 100%;
-        text-align: left;
-        display: none;
-    }
-    
-    .social-total {
-        margin: 0 4%;
-        display: flex;
-    }
+ 
     
     .year{
         margin: 4vh 15% 0 12%;
+        width: 140px;
+        font-size: 70%;
+        text-align: left;
+    }
+    
+    .location{
+        margin: 4vh 0 0 22%;
+        width: 300px;
+        font-size: 70%;
+        text-align: left;
+        padding-left: 12%;
+    }
+    .top-nav-block {
+        display: block;
+        margin: 0 0% 0 8.5rem;
+    }
+    .img{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .Product-Designer {
+        font-size: 110%;
+        width: 230px;
+        text-align: center;
+        margin-top: 21vh;   
+        
+    }
+    .bottom-nav {
+        margin-top: 22  vh;
+    }
+    .year{
+        margin: 4vh 8% 0 5%;
         width: 140px;
         font-size: 70%;
         text-align: left;
@@ -412,20 +438,45 @@ body{
         width: 300px;
         font-size: 70%;
         text-align: left;
-        padding-left: 14%;
-    }
-    .top-nav-block {
-        display: block;
-        margin: 0 0% 0 9rem;
-    }
-    .img{
-        max-width: 100%;
     }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 560px) {
+    .Product-Designer {
+        font-size: 110%;
+        width: 230px;
+        text-align: center;
+        margin-top: 21vh;   
+        
+    }
     .bottom-nav {
-        margin-top: 23vh;
+        margin-top: 22  vh;
+    }
+    .year{
+        margin: 4vh 8% 0 5%;
+        width: 140px;
+        font-size: 70%;
+        text-align: left;
+    }
+    
+    .location{
+        margin: 4vh 0 0 12%;
+        width: 300px;
+        font-size: 70%;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .Product-Designer {
+        font-size: 110%;
+        width: 230px;
+        text-align: center;
+        margin-top: 26vh;   
+        
+    }
+    .bottom-nav {
+        margin-top: 24vh;
     }
     .year{
         margin: 4vh 8% 0 5%;
