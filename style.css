@@ -311,7 +311,7 @@ body{
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     body{
         max-width: 100vw;
         overflow-x: hidden;
@@ -361,7 +361,7 @@ body{
         font-size: 110%;
         width: 230px;
         text-align: center;
-        margin-top: 22vh;
+        margin-top: 26vh;
         
     }
     .Hello {
@@ -384,8 +384,8 @@ body{
     }
 
     .bottom-nav {
-        margin-top: 14vh;
-        padding-top: 8vh;
+        margin-top: 24vh;
+        padding-top: 2vh;
     }
     .social {
         margin: 4vh 24%;
@@ -401,14 +401,14 @@ body{
     }
     
     .year{
-        margin: 4vh 15% 0 8%;
+        margin: 4vh 15% 0 12%;
         width: 140px;
         font-size: 70%;
         text-align: left;
     }
     
     .location{
-        margin: 4vh 0 0 124%;
+        margin: 4vh 0 0 12%;
         width: 300px;
         font-size: 70%;
         text-align: left;
