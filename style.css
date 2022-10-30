@@ -313,7 +313,7 @@ body{
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
     body{
         max-width: 100vw;
         overflow-x: hidden;
@@ -420,11 +420,11 @@ body{
         font-size: 110%;
         width: 230px;
         text-align: center;
-        margin-top: 21vh;   
+        margin-top: 16vh;   
         
     }
     .bottom-nav {
-        margin-top: 22  vh;
+        margin-top: 16vh;
     }
     .year{
         margin: 4vh 8% 0 5%;
@@ -441,33 +441,7 @@ body{
     }
 }
 
-@media only screen and (max-width: 560px) {
-    .Product-Designer {
-        font-size: 110%;
-        width: 230px;
-        text-align: center;
-        margin-top: 21vh;   
-        
-    }
-    .bottom-nav {
-        margin-top: 22  vh;
-    }
-    .year{
-        margin: 4vh 8% 0 5%;
-        width: 140px;
-        font-size: 70%;
-        text-align: left;
-    }
-    
-    .location{
-        margin: 4vh 0 0 12%;
-        width: 300px;
-        font-size: 70%;
-        text-align: left;
-    }
-}
-
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
     .Product-Designer {
         font-size: 110%;
         width: 230px;
@@ -476,10 +450,10 @@ body{
         
     }
     .bottom-nav {
-        margin-top: 24vh;
+        margin-top: 26vh;
     }
     .year{
-        margin: 4vh 8% 0 5%;
+        margin: 4vh 8% 0 10%;
         width: 140px;
         font-size: 70%;
         text-align: left;
@@ -492,3 +466,4 @@ body{
         text-align: left;
     }
 }
+
